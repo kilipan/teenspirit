@@ -20,4 +20,4 @@ Gerbers for producing the PCB can be found in [`prod/pcb`](https://github.com/ki
 
 ### Case
 The fantastic case was designed by DizzySkizzo (`dizzyskizzo1337` on discord). Thank you for letting me use and open source this genius design!
-Production files available in [`prod/case`](https://github.com/kilipan/zilpzalp/tree/main/prod/case).
+Production files available in [`prod/case`](https://github.com/kilipan/teenspirit/tree/main/prod/case).
