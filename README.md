@@ -11,7 +11,7 @@ A not-so-space-invading 18-key ergonomic keyboard with two Piezo-buzzers and a r
 - 18 fitting keycaps
 
 ## Firmware
-Currently only [ZMK firmware](https://github.com/kilipan/zmk-config-teenspirit) is available. Work on QMK for using the buzzers will start shortly! :)
+Currently only [ZMK firmware](https://github.com/kilipan/zmk-config-teenspirit) and [FAK firmware](https://github.com/kilipan/fak-config/tree/main/keyboards/teenspirit) are available. Neither allows using the buzzers as of yet, but ZMK should soon™️! :)
 
 ## Production Files
 All files are provided under CERN-OHL-S license.
