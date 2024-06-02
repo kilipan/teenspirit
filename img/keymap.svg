@@ -1,0 +1,4605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1120.6182"
+   height="927.94629"
+   viewBox="0 0 1120.6182 927.94629"
+   class="keymap"
+   version="1.1"
+   id="svg291"
+   sodipodi:docname="teenspirit_keymap_edited.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:export-filename="teenspirit_keymap_edited_white_BG.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs291" />
+  <sodipodi:namedview
+     id="namedview291"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.49028506"
+     inkscape:cx="389.56928"
+     inkscape:cy="643.50318"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg291"
+     inkscape:export-bgcolor="#ffffffff">
+    <sodipodi:guide
+       position="0,927.9463"
+       orientation="0,1120.6182"
+       id="guide293"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1120.6182,927.9463"
+       orientation="927.94629,0"
+       id="guide294"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1120.6182,0"
+       orientation="0,-1120.6182"
+       id="guide295"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,0"
+       orientation="-927.94629,0"
+       id="guide296"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <style
+     id="style1">/* inherit to force styles through use tags */
+svg path {
+    fill: inherit;
+}
+
+/* font and background color specifications */
+svg.keymap {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+/* default key styling */
+rect.key {
+    fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
+    stroke: #c9cccf;
+    stroke-width: 1;
+}
+
+/* default key side styling, only used is draw_key_sides is set */
+rect.side {
+    filter: brightness(90%);
+}
+
+/* color accent for combo boxes */
+rect.combo, rect.combo-separate {
+    fill: #cdf;
+}
+
+/* color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #fdd;
+}
+
+/* color accent for ghost (optional) keys */
+rect.ghost, rect.combo.ghost {
+    stroke-dasharray: 4, 4;
+    stroke-width: 2;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/* styling for layer labels */
+text.label {
+    font-weight: bold;
+    text-anchor: start;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for optional footer */
+text.footer {
+    text-anchor: end;
+    dominant-baseline: auto;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for combo tap, and key hold/shifted label text */
+text.combo, text.hold, text.shifted {
+    font-size: 11px;
+}
+
+text.hold {
+    text-anchor: middle;
+    dominant-baseline: auto;
+}
+
+text.shifted {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+/* styling for hold/shifted label text in combo box */
+text.combo.hold, text.combo.shifted {
+    font-size: 8px;
+}
+
+/* lighter symbol for transparent keys */
+text.trans {
+    fill: #7b7e81;
+}
+
+/* styling for combo dendrons */
+path.combo {
+    stroke-width: 1;
+    stroke: gray;
+    fill: none;
+}
+
+/* Start Tabler Icons Cleanup */
+/* cannot use height/width with glyphs */
+.icon-tabler &gt; path {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: 2;
+}
+/* hide tabler's default box */
+.icon-tabler &gt; path[stroke=&quot;none&quot;][fill=&quot;none&quot;] {
+    visibility: hidden;
+}
+/* End Tabler Icons Cleanup */
+</style>
+  <g
+     transform="translate(1.2753906,-19.553711)"
+     class="layer-aptmin"
+     id="g33">
+    <text
+       x="0"
+       y="28"
+       class="label"
+       id="text1">aptmin:</text>
+    <g
+       transform="translate(0,56)"
+       id="g32">
+      <g
+         transform="translate(30,56)"
+         class="key keypos-0"
+         id="g3">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect1" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text2">R</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text3">LCTRL</text>
+      </g>
+      <g
+         transform="translate(90,28)"
+         class="key keypos-1"
+         id="g5">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect3" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text4">S</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text5">LALT</text>
+      </g>
+      <g
+         transform="translate(150,28)"
+         class="key keypos-2"
+         id="g7">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect5" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text6">T</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text7">LGUI</text>
+      </g>
+      <g
+         transform="translate(210,28)"
+         class="key keypos-3"
+         id="g9">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect7" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text8">H</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text9">LSHFT</text>
+      </g>
+      <g
+         transform="translate(300,28)"
+         class="key keypos-4"
+         id="g11">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect9" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text10">N</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text11">RSHFT</text>
+      </g>
+      <g
+         transform="translate(360,28)"
+         class="key keypos-5"
+         id="g13">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect11" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text12">A</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text13">RGUI</text>
+      </g>
+      <g
+         transform="translate(420,28)"
+         class="key keypos-6"
+         id="g15">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect13" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text14">I</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text15">LALT</text>
+      </g>
+      <g
+         transform="translate(480,56)"
+         class="key keypos-7"
+         id="g17">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect15" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text16">O</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text17">RCTRL</text>
+      </g>
+      <g
+         transform="translate(90,84)"
+         class="key keypos-8"
+         id="g18">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect17" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text18">C</text>
+      </g>
+      <g
+         transform="translate(150,84)"
+         class="key keypos-9"
+         id="g19">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect18" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text19">G</text>
+      </g>
+      <g
+         transform="translate(210,84)"
+         class="key keypos-10"
+         id="g20">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect19" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text20">D</text>
+      </g>
+      <g
+         transform="translate(300,84)"
+         class="key keypos-11"
+         id="g21">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect20" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text21">L</text>
+      </g>
+      <g
+         transform="translate(360,84)"
+         class="key keypos-12"
+         id="g22">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect21" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text22">U</text>
+      </g>
+      <g
+         transform="translate(420,84)"
+         class="key keypos-13"
+         id="g23">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect22" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text23">Y</text>
+      </g>
+      <g
+         transform="translate(150,140)"
+         class="key keypos-14"
+         id="g25">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect23" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text24">'</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text25">numbers</text>
+      </g>
+      <g
+         transform="translate(210,140)"
+         class="key keypos-15"
+         id="g27">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect25" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text26">SPACE</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text27"><tspan
+             style="font-size:70%"
+             id="tspan26">navigation</tspan></text>
+      </g>
+      <g
+         transform="translate(300,140)"
+         class="key keypos-16"
+         id="g29">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect27" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text28">E</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text29">symbols</text>
+      </g>
+      <g
+         transform="translate(360,140)"
+         class="key keypos-17"
+         id="g31">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect29" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text30">TAB</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text31"><tspan
+             style="font-size:88%"
+             id="tspan30">function</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(1.2753906,204.44629)"
+     class="layer-adjacent combos"
+     id="g76">
+    <text
+       x="0"
+       y="28"
+       class="label"
+       id="text33">adjacent combos:</text>
+    <g
+       transform="translate(0,56)"
+       id="g75">
+      <g
+         transform="translate(30,56)"
+         class="key keypos-0"
+         id="g34">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect33" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text34">R</text>
+      </g>
+      <g
+         transform="translate(90,28)"
+         class="key keypos-1"
+         id="g35">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect34" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text35">S</text>
+      </g>
+      <g
+         transform="translate(150,28)"
+         class="key keypos-2"
+         id="g36">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect35" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text36">T</text>
+      </g>
+      <g
+         transform="translate(210,28)"
+         class="key keypos-3"
+         id="g37">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect36" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text37">H</text>
+      </g>
+      <g
+         transform="translate(300,28)"
+         class="key keypos-4"
+         id="g38">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect37" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text38">N</text>
+      </g>
+      <g
+         transform="translate(360,28)"
+         class="key keypos-5"
+         id="g39">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect38" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text39">A</text>
+      </g>
+      <g
+         transform="translate(420,28)"
+         class="key keypos-6"
+         id="g40">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect39" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text40">I</text>
+      </g>
+      <g
+         transform="translate(480,56)"
+         class="key keypos-7"
+         id="g41">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect40" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text41">O</text>
+      </g>
+      <g
+         transform="translate(90,84)"
+         class="key keypos-8"
+         id="g42">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect41" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text42">C</text>
+      </g>
+      <g
+         transform="translate(150,84)"
+         class="key keypos-9"
+         id="g43">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect42" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text43">G</text>
+      </g>
+      <g
+         transform="translate(210,84)"
+         class="key keypos-10"
+         id="g44">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect43" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text44">D</text>
+      </g>
+      <g
+         transform="translate(300,84)"
+         class="key keypos-11"
+         id="g45">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect44" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text45">L</text>
+      </g>
+      <g
+         transform="translate(360,84)"
+         class="key keypos-12"
+         id="g46">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect45" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text46">U</text>
+      </g>
+      <g
+         transform="translate(420,84)"
+         class="key keypos-13"
+         id="g47">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect46" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text47">Y</text>
+      </g>
+      <g
+         transform="translate(150,140)"
+         class="key keypos-14"
+         id="g48">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect47" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text48">'</text>
+      </g>
+      <g
+         transform="translate(210,140)"
+         class="key keypos-15"
+         id="g49">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect48" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text49">SPACE</text>
+      </g>
+      <g
+         transform="translate(300,140)"
+         class="key keypos-16"
+         id="g50">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect49" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text50">E</text>
+      </g>
+      <g
+         transform="translate(360,140)"
+         class="key keypos-17"
+         id="g51">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect50" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text51">TAB</text>
+      </g>
+      <g
+         class="combo combopos-0"
+         id="g52">
+        <rect
+           rx="6"
+           ry="6"
+           x="51"
+           y="32"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect51" />
+        <text
+           x="60"
+           y="42"
+           class="combo tap"
+           id="text52">W</text>
+      </g>
+      <g
+         class="combo combopos-1"
+         id="g53">
+        <rect
+           rx="6"
+           ry="6"
+           x="111"
+           y="18"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect52" />
+        <text
+           x="120"
+           y="28"
+           class="combo tap"
+           id="text53">M</text>
+      </g>
+      <g
+         class="combo combopos-2"
+         id="g54">
+        <rect
+           rx="6"
+           ry="6"
+           x="171"
+           y="18"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect53" />
+        <text
+           x="180"
+           y="28"
+           class="combo tap"
+           id="text54">B</text>
+      </g>
+      <g
+         class="combo combopos-3"
+         id="g55">
+        <rect
+           rx="6"
+           ry="6"
+           x="321"
+           y="18"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect54" />
+        <text
+           x="330"
+           y="28"
+           class="combo tap"
+           id="text55">V</text>
+      </g>
+      <g
+         class="combo combopos-4"
+         id="g56">
+        <rect
+           rx="6"
+           ry="6"
+           x="381"
+           y="18"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect55" />
+        <text
+           x="390"
+           y="28"
+           class="combo tap"
+           id="text56">,</text>
+      </g>
+      <g
+         class="combo combopos-5"
+         id="g57">
+        <rect
+           rx="6"
+           ry="6"
+           x="441"
+           y="32"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect56" />
+        <text
+           x="450"
+           y="42"
+           class="combo tap"
+           id="text57">.</text>
+      </g>
+      <g
+         class="combo combopos-6"
+         id="g58">
+        <rect
+           rx="6"
+           ry="6"
+           x="111"
+           y="74"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect57" />
+        <text
+           x="120"
+           y="84"
+           class="combo tap"
+           id="text58">F</text>
+      </g>
+      <g
+         class="combo combopos-7"
+         id="g59">
+        <rect
+           rx="6"
+           ry="6"
+           x="171"
+           y="74"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect58" />
+        <text
+           x="180"
+           y="84"
+           class="combo tap"
+           id="text59">P</text>
+      </g>
+      <g
+         class="combo combopos-8"
+         id="g60">
+        <rect
+           rx="6"
+           ry="6"
+           x="321"
+           y="74"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect59" />
+        <text
+           x="330"
+           y="84"
+           class="combo tap"
+           id="text60">X</text>
+      </g>
+      <g
+         class="combo combopos-9"
+         id="g61">
+        <rect
+           rx="6"
+           ry="6"
+           x="381"
+           y="74"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect60" />
+        <text
+           x="390"
+           y="84"
+           class="combo tap"
+           id="text61">Z</text>
+      </g>
+      <g
+         class="combo combopos-10"
+         id="g62">
+        <path
+           d="M 180,56 165,42"
+           class="combo"
+           id="path61" />
+        <path
+           d="m 180,56 15,14"
+           class="combo"
+           id="path62" />
+        <rect
+           rx="6"
+           ry="6"
+           x="171"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect62" />
+        <text
+           x="180"
+           y="56"
+           class="combo tap"
+           id="text62">K</text>
+      </g>
+      <g
+         class="combo combopos-11"
+         id="g64">
+        <path
+           d="M 330,56 345,42"
+           class="combo"
+           id="path63" />
+        <path
+           d="M 330,56 315,70"
+           class="combo"
+           id="path64" />
+        <rect
+           rx="6"
+           ry="6"
+           x="321"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect64" />
+        <text
+           x="330"
+           y="56"
+           class="combo tap"
+           id="text64">J</text>
+      </g>
+      <g
+         class="combo combopos-12"
+         id="g66">
+        <path
+           d="M 120,56 105,42"
+           class="combo"
+           id="path65" />
+        <path
+           d="m 120,56 15,14"
+           class="combo"
+           id="path66" />
+        <rect
+           rx="6"
+           ry="6"
+           x="111"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect66" />
+        <text
+           x="120"
+           y="56"
+           class="combo tap"
+           id="text66">-</text>
+      </g>
+      <g
+         class="combo combopos-13"
+         id="g68">
+        <path
+           d="M 390,56 405,42"
+           class="combo"
+           id="path67" />
+        <path
+           d="M 390,56 375,70"
+           class="combo"
+           id="path68" />
+        <rect
+           rx="6"
+           ry="6"
+           x="381"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect68" />
+        <text
+           x="390"
+           y="56"
+           class="combo tap"
+           id="text68">/</text>
+      </g>
+      <g
+         class="combo combopos-14"
+         id="g69">
+        <rect
+           rx="6"
+           ry="6"
+           x="81"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect69" />
+        <text
+           x="90"
+           y="56"
+           class="combo tap"
+           id="text69">{</text>
+      </g>
+      <g
+         class="combo combopos-15"
+         id="g70">
+        <rect
+           rx="6"
+           ry="6"
+           x="141"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect70" />
+        <text
+           x="150"
+           y="56"
+           class="combo tap"
+           id="text70">[</text>
+      </g>
+      <g
+         class="combo combopos-16"
+         id="g71">
+        <rect
+           rx="6"
+           ry="6"
+           x="201"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect71" />
+        <text
+           x="210"
+           y="56"
+           class="combo tap"
+           id="text71">(</text>
+      </g>
+      <g
+         class="combo combopos-17"
+         id="g72">
+        <rect
+           rx="6"
+           ry="6"
+           x="291"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect72" />
+        <text
+           x="300"
+           y="56"
+           class="combo tap"
+           id="text72">)</text>
+      </g>
+      <g
+         class="combo combopos-18"
+         id="g73">
+        <rect
+           rx="6"
+           ry="6"
+           x="351"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect73" />
+        <text
+           x="360"
+           y="56"
+           class="combo tap"
+           id="text73">]</text>
+      </g>
+      <g
+         class="combo combopos-19"
+         id="g74">
+        <rect
+           rx="6"
+           ry="6"
+           x="411"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect74" />
+        <text
+           x="420"
+           y="56"
+           class="combo tap"
+           id="text74">}</text>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(571.27539,204.44629)"
+     class="layer-additional combos"
+     id="g119">
+    <text
+       x="0"
+       y="28"
+       class="label"
+       id="text76">additional combos:</text>
+    <g
+       transform="translate(0,109)"
+       id="g118">
+      <g
+         transform="translate(30,56)"
+         class="key keypos-0"
+         id="g77">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect76" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text77">R</text>
+      </g>
+      <g
+         transform="translate(90,28)"
+         class="key keypos-1"
+         id="g78">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect77" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text78">S</text>
+      </g>
+      <g
+         transform="translate(150,28)"
+         class="key keypos-2"
+         id="g79">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect78" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text79">T</text>
+      </g>
+      <g
+         transform="translate(210,28)"
+         class="key keypos-3"
+         id="g80">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect79" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text80">H</text>
+      </g>
+      <g
+         transform="translate(300,28)"
+         class="key keypos-4"
+         id="g81">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect80" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text81">N</text>
+      </g>
+      <g
+         transform="translate(360,28)"
+         class="key keypos-5"
+         id="g82">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect81" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text82">A</text>
+      </g>
+      <g
+         transform="translate(420,28)"
+         class="key keypos-6"
+         id="g83">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect82" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text83">I</text>
+      </g>
+      <g
+         transform="translate(480,56)"
+         class="key keypos-7"
+         id="g84">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect83" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text84">O</text>
+      </g>
+      <g
+         transform="translate(90,84)"
+         class="key keypos-8"
+         id="g85">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect84" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text85">C</text>
+      </g>
+      <g
+         transform="translate(150,84)"
+         class="key keypos-9"
+         id="g86">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect85" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text86">G</text>
+      </g>
+      <g
+         transform="translate(210,84)"
+         class="key keypos-10"
+         id="g87">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect86" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text87">D</text>
+      </g>
+      <g
+         transform="translate(300,84)"
+         class="key keypos-11"
+         id="g88">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect87" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text88">L</text>
+      </g>
+      <g
+         transform="translate(360,84)"
+         class="key keypos-12"
+         id="g89">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect88" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text89">U</text>
+      </g>
+      <g
+         transform="translate(420,84)"
+         class="key keypos-13"
+         id="g90">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect89" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text90">Y</text>
+      </g>
+      <g
+         transform="translate(150,140)"
+         class="key keypos-14"
+         id="g91">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect90" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text91">'</text>
+      </g>
+      <g
+         transform="translate(210,140)"
+         class="key keypos-15"
+         id="g92">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect91" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text92">SPACE</text>
+      </g>
+      <g
+         transform="translate(300,140)"
+         class="key keypos-16"
+         id="g93">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect92" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text93">E</text>
+      </g>
+      <g
+         transform="translate(360,140)"
+         class="key keypos-17"
+         id="g94">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect93" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text94">TAB</text>
+      </g>
+      <g
+         class="combo combopos-0"
+         id="g95">
+        <path
+           d="M 150,84 H 110"
+           class="combo"
+           id="path94" />
+        <path
+           d="m 150,84 h 40"
+           class="combo"
+           id="path95" />
+        <rect
+           rx="6"
+           ry="6"
+           x="141"
+           y="74"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect95" />
+        <text
+           x="150"
+           y="84"
+           class="combo tap"
+           id="text95">Q</text>
+      </g>
+      <g
+         class="combo combopos-1"
+         id="g97">
+        <path
+           d="M 150,28 H 110"
+           class="combo"
+           id="path96" />
+        <path
+           d="m 150,28 h 40"
+           class="combo"
+           id="path97" />
+        <rect
+           rx="6"
+           ry="6"
+           x="141"
+           y="18"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect97" />
+        <text
+           x="150"
+           y="28"
+           class="combo tap"
+           id="text97">sch</text>
+      </g>
+      <g
+         class="combo combopos-2"
+         id="g99">
+        <path
+           d="M 360,84 H 320"
+           class="combo"
+           id="path98" />
+        <path
+           d="m 360,84 h 40"
+           class="combo"
+           id="path99" />
+        <rect
+           rx="6"
+           ry="6"
+           x="351"
+           y="74"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect99" />
+        <text
+           x="360"
+           y="84"
+           class="combo tap"
+           id="text99">ENTER</text>
+      </g>
+      <g
+         class="combo combopos-3"
+         id="g101">
+        <path
+           d="M 120,-29 H 36 a 6,6 0 0 0 -6,6 v 60"
+           class="combo"
+           id="path100" />
+        <path
+           d="m 120,-29 h 84 a 6,6 0 0 1 6,6 V 9"
+           class="combo"
+           id="path101" />
+        <rect
+           rx="6"
+           ry="6"
+           x="111"
+           y="-39"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect101" />
+        <text
+           x="120"
+           y="-29"
+           class="combo tap"
+           id="text101">ESC</text>
+      </g>
+      <g
+         class="combo combopos-4"
+         id="g102">
+        <rect
+           rx="6"
+           ry="6"
+           x="351"
+           y="102"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect102" />
+        <text
+           x="360"
+           y="112"
+           class="combo tap"
+           id="text102">;</text>
+      </g>
+      <g
+         class="combo combopos-5"
+         id="g103">
+        <path
+           d="M 390,112 405,98"
+           class="combo"
+           id="path102" />
+        <path
+           d="m 390,112 -15,14"
+           class="combo"
+           id="path103" />
+        <rect
+           rx="6"
+           ry="6"
+           x="381"
+           y="102"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect103" />
+        <text
+           x="390"
+           y="112"
+           class="combo tap"
+           id="text103">:</text>
+      </g>
+      <g
+         class="combo combopos-6"
+         id="g105">
+        <path
+           d="M 150,56 108,36"
+           class="combo"
+           id="path104" />
+        <path
+           d="m 150,56 42,20"
+           class="combo"
+           id="path105" />
+        <rect
+           rx="6"
+           ry="6"
+           x="141"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect105" />
+        <text
+           x="150"
+           y="56"
+           class="combo tap"
+           id="text105">&lt;</text>
+      </g>
+      <g
+         class="combo combopos-7"
+         id="g107">
+        <path
+           d="M 360,56 402,36"
+           class="combo"
+           id="path106" />
+        <path
+           d="M 360,56 318,76"
+           class="combo"
+           id="path107" />
+        <rect
+           rx="6"
+           ry="6"
+           x="351"
+           y="46"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect107" />
+        <text
+           x="360"
+           y="56"
+           class="combo tap"
+           id="text107">&gt;</text>
+      </g>
+      <g
+         class="combo combopos-8"
+         id="g109">
+        <path
+           d="M 255,28 H 230"
+           class="combo"
+           id="path108" />
+        <path
+           d="m 255,28 h 25"
+           class="combo"
+           id="path109" />
+        <rect
+           rx="6"
+           ry="6"
+           x="246"
+           y="18"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect109" />
+        <text
+           x="255"
+           y="28"
+           class="combo tap"
+           id="text109">CW</text>
+      </g>
+      <g
+         class="combo combopos-9"
+         id="g111">
+        <path
+           d="M 255,-43 H 96 a 6,6 0 0 0 -6,6 V 9"
+           class="combo"
+           id="path110" />
+        <path
+           d="m 255,-43 h 159 a 6,6 0 0 1 6,6 V 9"
+           class="combo"
+           id="path111" />
+        <rect
+           rx="6"
+           ry="6"
+           x="246"
+           y="-53"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect111" />
+        <text
+           x="255"
+           y="-43"
+           class="combo tap"
+           id="text111">CL</text>
+      </g>
+      <g
+         class="combo combopos-10"
+         id="g113">
+        <path
+           d="M 360,28 H 320"
+           class="combo"
+           id="path112" />
+        <path
+           d="m 360,28 h 40"
+           class="combo"
+           id="path113" />
+        <rect
+           rx="6"
+           ry="6"
+           x="351"
+           y="18"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect113" />
+        <text
+           x="360"
+           y="28"
+           class="combo tap"
+           id="text113">BSPC</text>
+      </g>
+      <g
+         class="combo combopos-11"
+         id="g115">
+        <path
+           d="m 432,-15 h -66 a 6,6 0 0 0 -6,6 V 9"
+           class="combo"
+           id="path114" />
+        <path
+           d="m 432,-15 h 42 a 6,6 0 0 1 6,6 v 46"
+           class="combo"
+           id="path115" />
+        <rect
+           rx="6"
+           ry="6"
+           x="423"
+           y="-25"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect115" />
+        <text
+           x="432"
+           y="-15"
+           class="combo tap"
+           id="text115">DEL</text>
+      </g>
+      <g
+         class="combo combopos-12"
+         id="g117">
+        <path
+           d="m 390,-29 h -84 a 6,6 0 0 0 -6,6 V 9"
+           class="combo"
+           id="path116" />
+        <path
+           d="m 390,-29 h 84 a 6,6 0 0 1 6,6 v 60"
+           class="combo"
+           id="path117" />
+        <rect
+           rx="6"
+           ry="6"
+           x="381"
+           y="-39"
+           width="18"
+           height="20"
+           class="combo"
+           id="rect117" />
+        <text
+           x="390"
+           y="-29"
+           class="combo tap"
+           id="text117">C-BSPC</text>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(1.2753906,481.44629)"
+     class="layer-numbers"
+     id="g143">
+    <text
+       x="0"
+       y="28"
+       class="label"
+       id="text119">numbers:</text>
+    <g
+       transform="translate(0,56)"
+       id="g142">
+      <g
+         transform="translate(30,56)"
+         class="key keypos-0"
+         id="g121">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect119" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text120">+</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text121">LCTRL</text>
+      </g>
+      <g
+         transform="translate(90,28)"
+         class="key keypos-1"
+         id="g123">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect121" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text122">-</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text123">LALT</text>
+      </g>
+      <g
+         transform="translate(150,28)"
+         class="key keypos-2"
+         id="g125">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect123" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text124">*</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text125">LGUI</text>
+      </g>
+      <g
+         transform="translate(210,28)"
+         class="key keypos-3"
+         id="g127">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect125" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text126">/</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text127">LSHFT</text>
+      </g>
+      <g
+         transform="translate(300,28)"
+         class="key keypos-4"
+         id="g128">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect127" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text128">4</text>
+      </g>
+      <g
+         transform="translate(360,28)"
+         class="key keypos-5"
+         id="g129">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect128" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text129">5</text>
+      </g>
+      <g
+         transform="translate(420,28)"
+         class="key keypos-6"
+         id="g130">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect129" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text130">6</text>
+      </g>
+      <g
+         transform="translate(480,56)"
+         class="key keypos-7"
+         id="g131">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect130" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text131">.</text>
+      </g>
+      <g
+         transform="translate(90,84)"
+         class="key keypos-8"
+         id="g132">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect131" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text132">9</text>
+      </g>
+      <g
+         transform="translate(150,84)"
+         class="key keypos-9"
+         id="g133">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect132" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text133">8</text>
+      </g>
+      <g
+         transform="translate(210,84)"
+         class="key keypos-10"
+         id="g134">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect133" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text134">7</text>
+      </g>
+      <g
+         transform="translate(300,84)"
+         class="key keypos-11"
+         id="g135">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect134" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text135">1</text>
+      </g>
+      <g
+         transform="translate(360,84)"
+         class="key keypos-12"
+         id="g136">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect135" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text136">2</text>
+      </g>
+      <g
+         transform="translate(420,84)"
+         class="key keypos-13"
+         id="g137">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect136" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text137">3</text>
+      </g>
+      <g
+         transform="translate(150,140)"
+         class="key held keypos-14"
+         id="g138">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key held"
+           id="rect137" />
+      </g>
+      <g
+         transform="translate(210,140)"
+         class="key trans keypos-15"
+         id="g139">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect138" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text138">▽</text>
+      </g>
+      <g
+         transform="translate(300,140)"
+         class="key keypos-16"
+         id="g140">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect139" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text139">E</text>
+      </g>
+      <g
+         transform="translate(360,140)"
+         class="key keypos-17"
+         id="g141">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect140" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text140">0</text>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(571.27539,481.44629)"
+     class="layer-navigation"
+     id="g167">
+    <text
+       x="0"
+       y="28"
+       class="label"
+       id="text143">navigation:</text>
+    <g
+       transform="translate(0,56)"
+       id="g166">
+      <g
+         transform="translate(30,56)"
+         class="key keypos-0"
+         id="g145">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect143" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text144">LCTRL</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text145">sticky</text>
+      </g>
+      <g
+         transform="translate(90,28)"
+         class="key keypos-1"
+         id="g147">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect145" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text146">LALT</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text147">sticky</text>
+      </g>
+      <g
+         transform="translate(150,28)"
+         class="key keypos-2"
+         id="g149">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect147" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text148">LGUI</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text149">sticky</text>
+      </g>
+      <g
+         transform="translate(210,28)"
+         class="key keypos-3"
+         id="g151">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect149" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text150">LSHFT</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text151">sticky</text>
+      </g>
+      <g
+         transform="translate(300,28)"
+         class="key keypos-4"
+         id="g152">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect151" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text152">LEFT</text>
+      </g>
+      <g
+         transform="translate(360,28)"
+         class="key keypos-5"
+         id="g153">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect152" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text153">DOWN</text>
+      </g>
+      <g
+         transform="translate(420,28)"
+         class="key keypos-6"
+         id="g154">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect153" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text154">UP</text>
+      </g>
+      <g
+         transform="translate(480,56)"
+         class="key keypos-7"
+         id="g155">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect154" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text155">RIGHT</text>
+      </g>
+      <g
+         transform="translate(90,84)"
+         class="key keypos-8"
+         id="g156">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect155" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text156">VOL-</text>
+      </g>
+      <g
+         transform="translate(150,84)"
+         class="key keypos-9"
+         id="g157">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect156" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text157">PGUP</text>
+      </g>
+      <g
+         transform="translate(210,84)"
+         class="key keypos-10"
+         id="g158">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect157" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text158">VOL+</text>
+      </g>
+      <g
+         transform="translate(300,84)"
+         class="key keypos-11"
+         id="g159">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect158" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text159">HOME</text>
+      </g>
+      <g
+         transform="translate(360,84)"
+         class="key keypos-12"
+         id="g160">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect159" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text160">PGDN</text>
+      </g>
+      <g
+         transform="translate(420,84)"
+         class="key keypos-13"
+         id="g161">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect160" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text161">END</text>
+      </g>
+      <g
+         transform="translate(150,140)"
+         class="key trans keypos-14"
+         id="g162">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect161" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text162">▽</text>
+      </g>
+      <g
+         transform="translate(210,140)"
+         class="key held keypos-15"
+         id="g163">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key held"
+           id="rect162" />
+      </g>
+      <g
+         transform="translate(300,140)"
+         class="key keypos-16"
+         id="g164">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect163" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text163">RALT</text>
+        <text
+           x="0"
+           y="24"
+           class="key hold"
+           id="text164">sticky</text>
+      </g>
+      <g
+         transform="translate(360,140)"
+         class="key trans keypos-17"
+         id="g165">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect164" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text165">▽</text>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(1.3710936,705.24121)"
+     class="layer-symbols"
+     id="g187">
+    <text
+       x="0"
+       y="28"
+       class="label"
+       id="text167">symbols:</text>
+    <g
+       transform="translate(0,56)"
+       id="g186">
+      <g
+         transform="translate(30,56)"
+         class="key keypos-0"
+         id="g168">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect167" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text168">!</text>
+      </g>
+      <g
+         transform="translate(90,28)"
+         class="key keypos-1"
+         id="g169">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect168" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text169">@</text>
+      </g>
+      <g
+         transform="translate(150,28)"
+         class="key keypos-2"
+         id="g170">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect169" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text170">#</text>
+      </g>
+      <g
+         transform="translate(210,28)"
+         class="key keypos-3"
+         id="g171">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect170" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text171">$</text>
+      </g>
+      <g
+         transform="translate(300,28)"
+         class="key keypos-4"
+         id="g172">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect171" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text172">&amp;</text>
+      </g>
+      <g
+         transform="translate(360,28)"
+         class="key keypos-5"
+         id="g173">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect172" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text173">*</text>
+      </g>
+      <g
+         transform="translate(420,28)"
+         class="key keypos-6"
+         id="g174">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect173" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text174">%</text>
+      </g>
+      <g
+         transform="translate(480,56)"
+         class="key keypos-7"
+         id="g175">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect174" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text175">^</text>
+      </g>
+      <g
+         transform="translate(90,84)"
+         class="key keypos-8"
+         id="g176">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect175" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text176">`</text>
+      </g>
+      <g
+         transform="translate(150,84)"
+         class="key keypos-9"
+         id="g177">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect176" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text177">&quot;</text>
+      </g>
+      <g
+         transform="translate(210,84)"
+         class="key keypos-10"
+         id="g178">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect177" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text178">_</text>
+      </g>
+      <g
+         transform="translate(300,84)"
+         class="key keypos-11"
+         id="g179">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect178" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text179">\</text>
+      </g>
+      <g
+         transform="translate(360,84)"
+         class="key keypos-12"
+         id="g180">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect179" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text180">|</text>
+      </g>
+      <g
+         transform="translate(420,84)"
+         class="key keypos-13"
+         id="g181">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect180" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text181">=</text>
+      </g>
+      <g
+         transform="translate(150,140)"
+         class="key keypos-14"
+         id="g182">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect181" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text182">~</text>
+      </g>
+      <g
+         transform="translate(210,140)"
+         class="key trans keypos-15"
+         id="g183">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect182" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text183">▽</text>
+      </g>
+      <g
+         transform="translate(300,140)"
+         class="key held keypos-16"
+         id="g184">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key held"
+           id="rect183" />
+      </g>
+      <g
+         transform="translate(360,140)"
+         class="key trans keypos-17"
+         id="g185">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect184" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text184">▽</text>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(571.27539,705.44629)"
+     class="layer-function"
+     id="g207">
+    <text
+       x="0"
+       y="28"
+       class="label"
+       id="text187">function:</text>
+    <g
+       transform="translate(0,56)"
+       id="g206">
+      <g
+         transform="translate(30,56)"
+         class="key keypos-0"
+         id="g188">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect187" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text188">BOOT</text>
+      </g>
+      <g
+         transform="translate(90,28)"
+         class="key keypos-1"
+         id="g189">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect188" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text189">F12</text>
+      </g>
+      <g
+         transform="translate(150,28)"
+         class="key keypos-2"
+         id="g190">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect189" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text190">F11</text>
+      </g>
+      <g
+         transform="translate(210,28)"
+         class="key keypos-3"
+         id="g191">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect190" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text191">F10</text>
+      </g>
+      <g
+         transform="translate(300,28)"
+         class="key keypos-4"
+         id="g192">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect191" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text192">F4</text>
+      </g>
+      <g
+         transform="translate(360,28)"
+         class="key keypos-5"
+         id="g193">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect192" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text193">F5</text>
+      </g>
+      <g
+         transform="translate(420,28)"
+         class="key keypos-6"
+         id="g194">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect193" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text194">F6</text>
+      </g>
+      <g
+         transform="translate(480,56)"
+         class="key keypos-7"
+         id="g195">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect194" />
+      </g>
+      <g
+         transform="translate(90,84)"
+         class="key keypos-8"
+         id="g196">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect195" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text195">F9</text>
+      </g>
+      <g
+         transform="translate(150,84)"
+         class="key keypos-9"
+         id="g197">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect196" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text196">F8</text>
+      </g>
+      <g
+         transform="translate(210,84)"
+         class="key keypos-10"
+         id="g198">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect197" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text197">F7</text>
+      </g>
+      <g
+         transform="translate(300,84)"
+         class="key keypos-11"
+         id="g199">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect198" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text198">F1</text>
+      </g>
+      <g
+         transform="translate(360,84)"
+         class="key keypos-12"
+         id="g200">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect199" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text199">F2</text>
+      </g>
+      <g
+         transform="translate(420,84)"
+         class="key keypos-13"
+         id="g201">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key"
+           id="rect200" />
+        <text
+           x="0"
+           y="0"
+           class="key tap"
+           id="text200">F3</text>
+      </g>
+      <g
+         transform="translate(150,140)"
+         class="key trans keypos-14"
+         id="g202">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect201" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text201">▽</text>
+      </g>
+      <g
+         transform="translate(210,140)"
+         class="key trans keypos-15"
+         id="g203">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect202" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text202">▽</text>
+      </g>
+      <g
+         transform="translate(300,140)"
+         class="key trans keypos-16"
+         id="g204">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key trans"
+           id="rect203" />
+        <text
+           x="0"
+           y="0"
+           class="key trans tap"
+           id="text203">▽</text>
+      </g>
+      <g
+         transform="translate(360,140)"
+         class="key held keypos-17"
+         id="g205">
+        <rect
+           rx="6"
+           ry="6"
+           x="-28"
+           y="-26"
+           width="56"
+           height="52"
+           class="key held"
+           id="rect204" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g292"
+     transform="translate(-125.13566,-805.48292)">
+    <g
+       id="g293"
+       transform="translate(666.25382,-163.07079)">
+      <text
+         x="30"
+         y="977"
+         class="label"
+         id="text207">Umlaut Combos:</text>
+      <g
+         transform="translate(30,949)"
+         class="layer-combopos-0"
+         id="g228">
+        <g
+           transform="translate(0,56)"
+           id="g227">
+          <g
+             transform="translate(30,28)"
+             class="key  combo-separate keypos-0"
+             id="g208">
+            <rect
+               rx="6"
+               ry="6"
+               x="-28"
+               y="-26"
+               width="56"
+               height="52"
+               class="key  combo-separate"
+               id="rect207" />
+            <text
+               x="0"
+               y="0"
+               class="key  combo-separate tap"
+               id="text208">ß</text>
+          </g>
+          <g
+             transform="translate(8,72)"
+             class="key keypos-1"
+             id="g209">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect208" />
+          </g>
+          <g
+             transform="translate(22,65)"
+             class="key held keypos-2"
+             id="g210">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect209" />
+          </g>
+          <g
+             transform="translate(38,65)"
+             class="key keypos-3"
+             id="g211">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect210" />
+          </g>
+          <g
+             transform="translate(52,65)"
+             class="key keypos-4"
+             id="g212">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect211" />
+          </g>
+          <g
+             transform="translate(75,65)"
+             class="key keypos-5"
+             id="g213">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect212" />
+          </g>
+          <g
+             transform="translate(90,65)"
+             class="key keypos-6"
+             id="g214">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect213" />
+          </g>
+          <g
+             transform="translate(105,65)"
+             class="key keypos-7"
+             id="g215">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect214" />
+          </g>
+          <g
+             transform="translate(120,72)"
+             class="key keypos-8"
+             id="g216">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect215" />
+          </g>
+          <g
+             transform="translate(22,79)"
+             class="key keypos-9"
+             id="g217">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect216" />
+          </g>
+          <g
+             transform="translate(38,79)"
+             class="key keypos-10"
+             id="g218">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect217" />
+          </g>
+          <g
+             transform="translate(52,79)"
+             class="key keypos-11"
+             id="g219">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect218" />
+          </g>
+          <g
+             transform="translate(75,79)"
+             class="key keypos-12"
+             id="g220">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect219" />
+          </g>
+          <g
+             transform="translate(90,79)"
+             class="key keypos-13"
+             id="g221">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect220" />
+          </g>
+          <g
+             transform="translate(105,79)"
+             class="key keypos-14"
+             id="g222">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect221" />
+          </g>
+          <g
+             transform="translate(38,93)"
+             class="key keypos-15"
+             id="g223">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect222" />
+          </g>
+          <g
+             transform="translate(52,93)"
+             class="key held keypos-16"
+             id="g224">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect223" />
+          </g>
+          <g
+             transform="translate(75,93)"
+             class="key keypos-17"
+             id="g225">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect224" />
+          </g>
+          <g
+             transform="translate(90,93)"
+             class="key keypos-18"
+             id="g226">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect225" />
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(172,949)"
+         class="layer-combopos-1"
+         id="g249">
+        <g
+           transform="translate(0,56)"
+           id="g248">
+          <g
+             transform="translate(30,28)"
+             class="key  combo-separate keypos-0"
+             id="g229">
+            <rect
+               rx="6"
+               ry="6"
+               x="-28"
+               y="-26"
+               width="56"
+               height="52"
+               class="key  combo-separate"
+               id="rect228" />
+            <text
+               x="0"
+               y="0"
+               class="key  combo-separate tap"
+               id="text228">Ä</text>
+          </g>
+          <g
+             transform="translate(8,72)"
+             class="key keypos-1"
+             id="g230">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect229" />
+          </g>
+          <g
+             transform="translate(22,65)"
+             class="key keypos-2"
+             id="g231">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect230" />
+          </g>
+          <g
+             transform="translate(38,65)"
+             class="key keypos-3"
+             id="g232">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect231" />
+          </g>
+          <g
+             transform="translate(52,65)"
+             class="key keypos-4"
+             id="g233">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect232" />
+          </g>
+          <g
+             transform="translate(75,65)"
+             class="key keypos-5"
+             id="g234">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect233" />
+          </g>
+          <g
+             transform="translate(90,65)"
+             class="key held keypos-6"
+             id="g235">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect234" />
+          </g>
+          <g
+             transform="translate(105,65)"
+             class="key keypos-7"
+             id="g236">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect235" />
+          </g>
+          <g
+             transform="translate(120,72)"
+             class="key keypos-8"
+             id="g237">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect236" />
+          </g>
+          <g
+             transform="translate(22,79)"
+             class="key keypos-9"
+             id="g238">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect237" />
+          </g>
+          <g
+             transform="translate(38,79)"
+             class="key keypos-10"
+             id="g239">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect238" />
+          </g>
+          <g
+             transform="translate(52,79)"
+             class="key keypos-11"
+             id="g240">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect239" />
+          </g>
+          <g
+             transform="translate(75,79)"
+             class="key keypos-12"
+             id="g241">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect240" />
+          </g>
+          <g
+             transform="translate(90,79)"
+             class="key keypos-13"
+             id="g242">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect241" />
+          </g>
+          <g
+             transform="translate(105,79)"
+             class="key keypos-14"
+             id="g243">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect242" />
+          </g>
+          <g
+             transform="translate(38,93)"
+             class="key keypos-15"
+             id="g244">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect243" />
+          </g>
+          <g
+             transform="translate(52,93)"
+             class="key keypos-16"
+             id="g245">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect244" />
+          </g>
+          <g
+             transform="translate(75,93)"
+             class="key held keypos-17"
+             id="g246">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect245" />
+          </g>
+          <g
+             transform="translate(90,93)"
+             class="key keypos-18"
+             id="g247">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect246" />
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(313,949)"
+         class="layer-combopos-2"
+         id="g270">
+        <g
+           transform="translate(0,56)"
+           id="g269">
+          <g
+             transform="translate(30,28)"
+             class="key  combo-separate keypos-0"
+             id="g250">
+            <rect
+               rx="6"
+               ry="6"
+               x="-28"
+               y="-26"
+               width="56"
+               height="52"
+               class="key  combo-separate"
+               id="rect249" />
+            <text
+               x="0"
+               y="0"
+               class="key  combo-separate tap"
+               id="text249">Ö</text>
+          </g>
+          <g
+             transform="translate(8,72)"
+             class="key keypos-1"
+             id="g251">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect250" />
+          </g>
+          <g
+             transform="translate(22,65)"
+             class="key keypos-2"
+             id="g252">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect251" />
+          </g>
+          <g
+             transform="translate(38,65)"
+             class="key keypos-3"
+             id="g253">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect252" />
+          </g>
+          <g
+             transform="translate(52,65)"
+             class="key keypos-4"
+             id="g254">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect253" />
+          </g>
+          <g
+             transform="translate(75,65)"
+             class="key keypos-5"
+             id="g255">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect254" />
+          </g>
+          <g
+             transform="translate(90,65)"
+             class="key keypos-6"
+             id="g256">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect255" />
+          </g>
+          <g
+             transform="translate(105,65)"
+             class="key keypos-7"
+             id="g257">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect256" />
+          </g>
+          <g
+             transform="translate(120,72)"
+             class="key held keypos-8"
+             id="g258">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect257" />
+          </g>
+          <g
+             transform="translate(22,79)"
+             class="key keypos-9"
+             id="g259">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect258" />
+          </g>
+          <g
+             transform="translate(38,79)"
+             class="key keypos-10"
+             id="g260">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect259" />
+          </g>
+          <g
+             transform="translate(52,79)"
+             class="key keypos-11"
+             id="g261">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect260" />
+          </g>
+          <g
+             transform="translate(75,79)"
+             class="key keypos-12"
+             id="g262">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect261" />
+          </g>
+          <g
+             transform="translate(90,79)"
+             class="key keypos-13"
+             id="g263">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect262" />
+          </g>
+          <g
+             transform="translate(105,79)"
+             class="key keypos-14"
+             id="g264">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect263" />
+          </g>
+          <g
+             transform="translate(38,93)"
+             class="key keypos-15"
+             id="g265">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect264" />
+          </g>
+          <g
+             transform="translate(52,93)"
+             class="key keypos-16"
+             id="g266">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect265" />
+          </g>
+          <g
+             transform="translate(75,93)"
+             class="key held keypos-17"
+             id="g267">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect266" />
+          </g>
+          <g
+             transform="translate(90,93)"
+             class="key keypos-18"
+             id="g268">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect267" />
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(454,949)"
+         class="layer-combopos-3"
+         id="g291">
+        <g
+           transform="translate(0,56)"
+           id="g290">
+          <g
+             transform="translate(30,28)"
+             class="key  combo-separate keypos-0"
+             id="g271">
+            <rect
+               rx="6"
+               ry="6"
+               x="-28"
+               y="-26"
+               width="56"
+               height="52"
+               class="key  combo-separate"
+               id="rect270" />
+            <text
+               x="0"
+               y="0"
+               class="key  combo-separate tap"
+               id="text270">Ü</text>
+          </g>
+          <g
+             transform="translate(8,72)"
+             class="key keypos-1"
+             id="g272">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect271" />
+          </g>
+          <g
+             transform="translate(22,65)"
+             class="key keypos-2"
+             id="g273">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect272" />
+          </g>
+          <g
+             transform="translate(38,65)"
+             class="key keypos-3"
+             id="g274">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect273" />
+          </g>
+          <g
+             transform="translate(52,65)"
+             class="key keypos-4"
+             id="g275">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect274" />
+          </g>
+          <g
+             transform="translate(75,65)"
+             class="key keypos-5"
+             id="g276">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect275" />
+          </g>
+          <g
+             transform="translate(90,65)"
+             class="key keypos-6"
+             id="g277">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect276" />
+          </g>
+          <g
+             transform="translate(105,65)"
+             class="key keypos-7"
+             id="g278">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect277" />
+          </g>
+          <g
+             transform="translate(120,72)"
+             class="key keypos-8"
+             id="g279">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect278" />
+          </g>
+          <g
+             transform="translate(22,79)"
+             class="key keypos-9"
+             id="g280">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect279" />
+          </g>
+          <g
+             transform="translate(38,79)"
+             class="key keypos-10"
+             id="g281">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect280" />
+          </g>
+          <g
+             transform="translate(52,79)"
+             class="key keypos-11"
+             id="g282">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect281" />
+          </g>
+          <g
+             transform="translate(75,79)"
+             class="key keypos-12"
+             id="g283">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect282" />
+          </g>
+          <g
+             transform="translate(90,79)"
+             class="key held keypos-13"
+             id="g284">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect283" />
+          </g>
+          <g
+             transform="translate(105,79)"
+             class="key keypos-14"
+             id="g285">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect284" />
+          </g>
+          <g
+             transform="translate(38,93)"
+             class="key keypos-15"
+             id="g286">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect285" />
+          </g>
+          <g
+             transform="translate(52,93)"
+             class="key keypos-16"
+             id="g287">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect286" />
+          </g>
+          <g
+             transform="translate(75,93)"
+             class="key held keypos-17"
+             id="g288">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key held"
+               id="rect287" />
+          </g>
+          <g
+             transform="translate(90,93)"
+             class="key keypos-18"
+             id="g289">
+            <rect
+               rx="6"
+               ry="6"
+               x="-6"
+               y="-5"
+               width="11"
+               height="10"
+               class="key"
+               id="rect288" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
