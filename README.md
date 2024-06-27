@@ -8,7 +8,7 @@ A not-so-space-invading 18-key ergonomic keyboard with two Piezo-buzzers and a r
 ## BOM
 - 1 Teenspirit PCB
 - 1 Seeed XIAO compatible controller, like e.g. [Miao](https://github.com/kilipan/miao)
-- 9 sot23 diodes (common cathode)
+- 9 sot23 diodes (common cathode), look for BAV70
 - 18 kailh choc low profile switches
 - 18 fitting keycaps
 
