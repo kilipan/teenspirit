@@ -24,6 +24,7 @@ Gerbers for producing the PCB can be found in [`prod/pcb`](https://github.com/ki
 The fantastic case was designed by DizzySkizzo (`dizzyskizzo1337` on discord). Thank you for letting me use and open source this genius design!
 Production files available in [`prod/case`](https://github.com/kilipan/teenspirit/tree/main/prod/case).
 The case uses threaded heat-inserts of type `M2xL2xOD3` available for example [on Aliexpress](<https://de.aliexpress.com/item/1005006071488810.html>) (make sure to select the correct type! The linked listing has many different options).
+Use 7mm screws (6 might also fit, if you want to cut it close).
 
 ## Example Keymap
 Take this as an inspiration for how typing on this can work very well, not a fixed way to do things! :)
